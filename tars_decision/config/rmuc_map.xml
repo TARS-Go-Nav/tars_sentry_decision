@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SemanticMap version="1.0">
+  <!-- 地图元数据 -->
+  <Metadata>
+    <n>rmuc场地语义地图</n>
+    <CoordinateSystem>map</CoordinateSystem>
+    <Unit>meter</Unit>
+  </Metadata>
+
+  <!-- 区域定义 - 主要区域 -->
+  <!-- 坐标还没写 -->
+  <Areas>
+    <!-- 红方安全地面 -->
+    <Area id="1" code="red_safe_ground">
+      <n>红方安全地面</n>
+      <Geometry>
+        <Polygon>
+          <Point x="-5.19" y="4.99" />
+          <Point x="4.17" y="6.19" />
+          <Point x="6.4" y="9.4" />
+          <Point x="7.19" y="8.8" />
+          <Point x="5.14" y="5.06" />
+          <Point x="5.69" y="0.95" />
+          <Point x="6.63" y="-0.07" />
+          <Point x="-0.34" y="-1.55" />
+          <Point x="0.38" y="-4.78" />
+          <Point x="-3.61" y="-5.44" />
+        </Polygon>
+      </Geometry>
+    </Area>
+
+    <!-- 红方坡 -->
+    <Area id="2" code="red_slope">
+      <n>红方坡</n>
+      <Geometry>
+        <Polygon>
+          <Point x="-0.3" y="-1.64" />
+          <Point x="6.31" y="-0.82" />
+          <Point x="7.19" y="-4.04" />
+          <Point x="0.25" y="-4.95" />
+        </Polygon>
+      </Geometry>
+    </Area>
+
+    <!-- 蓝方安全地面 -->
+    <Area id="3" code="blue_safe_ground">
+      <n>蓝方安全地面</n>
+      <Geometry>
+        <Polygon>
+          <Point x="-3.95" y="4.59" />
+          <Point x="-5.59" y="-4.65" />
+          <Point x="-1.95" y="-5.40" />
+          <Point x="-1.34" y="-2.05" />
+          <Point x="5.27" y="-3.38" />
+          <Point x="6.08" y="3.24" />
+          <Point x="9.19" y="5.87" />
+          <Point x="8.73" y="6.59" />
+          <Point x="5.21" y="3.97" />
+          <Point x="1.70" y="4.60" />
+          <Point x="1.63" y="3.86" />
+        </Polygon>
+      </Geometry>
+    </Area>
+
+    <!-- 蓝方坡 -->
+    <Area id="4" code="blue_slope">
+      <n>蓝方坡</n>
+      <Geometry>
+        <Polygon>
+          <Point x="11.20" y="-4.05" />
+          <Point x="7.90" y="-7.07" />
+          <Point x="-1.88" y="-5.44" />
+          <Point x="-1.35" y="-2.14" />
+        </Polygon>
+      </Geometry>
+    </Area>
+
+    <Area id="5" code="red_middle">
+      <n>红色中央区域</n>
+      <Geometry>
+        <Polygon>
+          <Point x="5.65" y="-2.19" />
+          <Point x="6.00" y="-4.18" />
+          <Point x="11.69" y="-3.49" />
+          <Point x="11.32" y="-1.49" />
+          <Point x="13.24" y="2.31" />
+          <Point x="12.86" y="6.82" />
+          <Point x="11.70" y="8.07" />
+          <Point x="12.84" y="9.81" />
+          <Point x="7.09" y="9.11" />
+          <Point x="5.10" y="5.10" />
+          <Point x="5.65" y="1.23" />
+          <Point x="6.46" y="-0.37" />
+        </Polygon>
+      </Geometry>
+    </Area>
+
+    <Area id="6" code="blue_middle">
+      <n>蓝色中央区域</n>
+      <Geometry>
+        <Polygon>
+          <Point x="4.11" y="-4.61" />
+          <Point x="5.46" y="-3.13" />
+          <Point x="4.83" y="-0.78" />
+          <Point x="5.36" y="2.32" />
+          <Point x="9.65" y="6.60" />
+          <Point x="15.18" y="5.56" />
+          <Point x="13.67" y="3.49" />
+          <Point x="14.43" y="1.32" />
+          <Point x="14.02" y="-1.22" />
+          <Point x="9.87" y="-5.48" />
+          <Point x="8.02" y="-7.25" />
+          <Point x="3.88" y="-6.32" />
+        </Polygon>
+      </Geometry>
+    </Area>
+    <Area id="7" code="updown1">
+      <n>qifuluduan</n>
+      <Geometry>
+        <Polygon>
+          <Point x="12.37" y="-3.03" />
+          <Point x="5.81" y="-2.08" />
+          <Point x="3.00" y="-6.36" />
+          <Point x="7.94" y="-7.16" />
+        </Polygon>
+      </Geometry>
+    </Area>
+    <Area id="8" code="updown2">
+      <n>qifuluduan2</n>
+      <Geometry>
+        <Polygon>
+          <Point x="15.80" y="6.64" />
+          <Point x="13.62" y="2.44" />
+          <Point x="7.22" y="3.51" />
+          <Point x="10.32" y="7.62" />
+        </Polygon>
+      </Geometry>
+    </Area>
+  </Areas>
+</SemanticMap>

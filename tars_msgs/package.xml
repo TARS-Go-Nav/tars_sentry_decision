@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>tars_msgs</name>
+  <version>0.0.1</version>
+
+  <description>
+    tars_msgs
+  </description>
+
+  <maintainer email="muzs@foxmail.com">muzs</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rosidl_default_generators</depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
